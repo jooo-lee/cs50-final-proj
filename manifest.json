@@ -1,0 +1,14 @@
+{
+  "manifest_version": 2,
+  "name": "Jo's Chrome Extension",
+  "version": "1.0",
+  "description": "Create circles on your new tab in chrome, and click the icon for motivation!",
+  "chrome_url_overrides": {
+    "newtab": "new_tab/index.html"
+  },
+  "browser_action": {
+    "default_icon": "pika_icon.png",
+    "default_popup": "pop_up/index.html",
+    "default_title": "Click for motivation!"
+  }
+}
